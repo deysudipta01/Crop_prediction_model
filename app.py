@@ -5,7 +5,7 @@ import sklearn
 import pickle
 
 # importing model
-model = pickle.load(open('RandomForest.pkl','rb'))
+model = pickle.load(open('RandomForestnewversion.pkl','rb'))
 
 
 # creating flask app
@@ -37,5 +37,5 @@ def predict():
 
 
 # python main
-if __name__ == "__main__":
-    app.run(debug=True)
+#if __name__ == "__main__":
+    #app.run(debug=True)
